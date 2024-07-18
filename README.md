@@ -1,4 +1,4 @@
-### Como ultilizar o script
+## Como ultilizar o script
 
 Execulta o **PowerShell** como administrador coloca o seguinte comando:
 
