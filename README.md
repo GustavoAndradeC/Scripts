@@ -1,14 +1,36 @@
-### Como ultilizar o script
+### How to use the script (Windows PowerShell)
 
-Execulta o **PowerShell** como administrador coloca o seguinte comando:
+Running **PowerShell** as administrator prompts the following command:
 
 ```Powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
-> O Codigo citado acima define a politica de execução para o seu usuário atual, permitindo que voçê execute scripts sem restrições
+> The code quoted above defines an execution policy for your current user, allowing you to run scripts without restrictions
 
-Acesse até o **caminho** do script para pode-lo **executar** 
+Access the **path** of the script to **execute**
 
 ```Powershell
-.\NomeDoScript.ps1
+.\ScriptName.ps1
 ```
+___
+
+### How to use the script (Linux) 
+
+Use a text editor to create the **RestFluig.sh** file and Paste the script **content**
+
+```
+nano RestFluig.sh
+```
+
+> Give the script execution permission, navigate to the directory where you saved the script and make it executable:
+```
+chmod +x RestFluig.sh
+```
+
+Run the **script**
+```
+./RestFluig.sh
+```
+
+
+
